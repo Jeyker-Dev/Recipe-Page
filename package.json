@@ -1,0 +1,22 @@
+{
+  "name": "recipe-page",
+  "version": "1.0.0",
+  "description": "Sitio Web con HTML Y TailwindCss sobre Recetas",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/tailwind.css -o ./src/dist/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyker-Dev/Recipe-Page.git"
+  },
+  "author": "Jeyker-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyker-Dev/Recipe-Page/issues"
+  },
+  "homepage": "https://github.com/Jeyker-Dev/Recipe-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
